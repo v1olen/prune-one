@@ -12,3 +12,6 @@ dotenv = "0.15.0"
 rocket = "0.4.4"
 rocket_contrib = "0.4.4"
 serde = { version = "1.0.105", features = ["derive"] }
+typescript-definitions = { version="0.1.10", features=["export-typescript"] }
+regex = "1.3.6"
+diesel_migrations = "1.4.0"

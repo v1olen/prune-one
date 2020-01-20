@@ -18,3 +18,7 @@ pub const UNIMPLEMENTED: ErrorResponse = new_error!(
 pub const ERROR_INSERTING_BRIDGE: ErrorResponse = new_error!(
     Status::InternalServerError => "Internal server error"
 );
+
+pub const NO_PROTOCOL_IN_TARGET: ErrorResponse = new_error!(
+    Status::BadRequest => "Protocol must be specified in target"
+);
