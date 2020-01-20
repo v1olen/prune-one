@@ -1,6 +1,5 @@
 table! {
-    bridges (id) {
-        id -> Int4,
+    bridges (slug) {
         slug -> Varchar,
         target_url -> Varchar,
         active -> Bool,

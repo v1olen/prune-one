@@ -1,6 +1,14 @@
+use super::schema::bridges;
+
+#[derive(Insertable, FromForm)]
+#[table_name = "bridges"]
+pub struct NewBridge {
+    pub slug: String,
+    pub target_url: String,
+}
+
 #[derive(Queryable)]
 pub struct Bridge {
-    pub id: i32,
     pub slug: String,
     pub target_url: String,
     pub active: bool,
