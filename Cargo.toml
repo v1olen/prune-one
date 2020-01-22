@@ -1,6 +1,6 @@
 [package]
-name = "abridge"
-version = "0.1.0"
+name = "prune-one"
+version = "1.0.0"
 authors = ["TheViolence <violenceplg7@gmail.com>"]
 edition = "2018"
 
